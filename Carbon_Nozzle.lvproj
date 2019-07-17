@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="18008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,11 +10,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="carbon_nozzle_92P_icon.ico" Type="Document" URL="../../../../Downloads/carbon_nozzle_92P_icon.ico"/>
-		<Item Name="CC_Configuration_REV0_2019_02_25vi.vi" Type="VI" URL="../CC_Configuration_REV0_2019_02_25vi.vi"/>
 		<Item Name="CC_Load_Test_REV2.vi" Type="VI" URL="../CC_Load_Test_REV2.vi"/>
+		<Item Name="iconfinder-bl-1643-cartoon-character-servant-robot-artificial-intelligence-retro-4575050_121499.ico" Type="Document" URL="/C/Users/david.page/Downloads/iconfinder-bl-1643-cartoon-character-servant-robot-artificial-intelligence-retro-4575050_121499.ico"/>
 		<Item Name="Logging.ctl" Type="VI" URL="../Logging.ctl"/>
-		<Item Name="Tab_control.ctl" Type="VI" URL="../LV Controls/Tab_control.ctl"/>
+		<Item Name="Tank_Burst_Strain.vi" Type="VI" URL="../Tank_Burst_Strain.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -251,67 +250,61 @@
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="cluster_enum.ctl" Type="VI" URL="../cluster_enum.ctl"/>
 			<Item Name="Loadcell_configuration_REV0_2019_02_25.vi" Type="VI" URL="../Loadcell_configuration_REV0_2019_02_25.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="STOP_FGV.vi" Type="VI" URL="../STOP_FGV.vi"/>
+			<Item Name="Strain_Card1_config.vi" Type="VI" URL="../Strain_Card1_config.vi"/>
+			<Item Name="Strain_Card2_config.vi" Type="VI" URL="../Strain_Card2_config.vi"/>
 			<Item Name="Strain_configuration_REV0_2019_02_25.vi" Type="VI" URL="../Strain_configuration_REV0_2019_02_25.vi"/>
-			<Item Name="tare.vi" Type="VI" URL="../../../../Desktop/Coupon Test Software/tare.vi"/>
+			<Item Name="tare.vi" Type="VI" URL="../tare.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Carbon_Nozzle_REV2" Type="EXE">
+			<Item Name="Tank_Burst_StrainREV0" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{8C698667-3D1E-4077-808C-8B4BABD013C2}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{9B2A6EA7-8406-4D53-BCE2-0967097F2512}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{35BB10E8-B6F5-437E-A91C-686B0DB5AFE5}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{386BD22E-3048-4253-AF49-2A8CADB206FB}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.Vector.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C862AFA2-A4C0-44D3-BCD9-8BB47FD3471E}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Carbon_Nozzle_REV2</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{EC9343B1-A39A-4806-B968-7F37317AD795}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tank_Burst_StrainREV0</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Carbon_Nozzle_REV2</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/Tank_Burst_Strain_REV0</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{893A3F8F-C3B0-407E-8894-C3A993877CCA}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{EBADCAF6-4306-4D6D-9659-DFD7AF95E67B}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Carbon_Nozzle.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Carbon_Nozzle_REV2/Carbon_Nozzle.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tank_Burst_StrainREV0.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/Tank_Burst_Strain_REV0/Tank_Burst_StrainREV0.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Carbon_Nozzle_REV2/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/Tank_Burst_Strain_REV0/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/carbon_nozzle_92P_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A1BE690C-FCFA-4564-9B81-269BA66E5AF5}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/iconfinder-bl-1643-cartoon-character-servant-robot-artificial-intelligence-retro-4575050_121499.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9F6615B4-CC45-4DA9-8872-ACDE741A00F9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CC_Configuration_REV0_2019_02_25vi.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tank_Burst_Strain.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CC_Load_Test_REV2.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Logging.ctl</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Tab_control.ctl</Property>
-				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Vector</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Carbon_Nozzle_REV2</Property>
-				<Property Name="TgtF_internalName" Type="Str">Carbon_Nozzle_REV2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tank_Burst_StrainREV0</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tank_Burst_StrainREV0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Vector</Property>
-				<Property Name="TgtF_productName" Type="Str">Carbon_Nozzle_REV2</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{F80A440D-1EE7-402B-9AB8-C7F1CB14D985}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Carbon_Nozzle.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">Tank_Burst_StrainREV0</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{4C0432D9-67AD-4E18-93A2-777FF8D750F3}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tank_Burst_StrainREV0.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
