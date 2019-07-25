@@ -11,9 +11,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CC_Load_Test_REV2.vi" Type="VI" URL="../CC_Load_Test_REV2.vi"/>
-		<Item Name="iconfinder-bl-1643-cartoon-character-servant-robot-artificial-intelligence-retro-4575050_121499.ico" Type="Document" URL="/C/Users/david.page/Downloads/iconfinder-bl-1643-cartoon-character-servant-robot-artificial-intelligence-retro-4575050_121499.ico"/>
+		<Item Name="iconfinder-bl-1643-cartoon-character-servant-robot-artificial-intelligence-retro-4575050_121499.ico" Type="Document" URL="../../../../Downloads/iconfinder-bl-1643-cartoon-character-servant-robot-artificial-intelligence-retro-4575050_121499.ico"/>
 		<Item Name="Logging.ctl" Type="VI" URL="../Logging.ctl"/>
 		<Item Name="Tank_Burst_Strain.vi" Type="VI" URL="../Tank_Burst_Strain.vi"/>
+		<Item Name="YJoint_Test.vi" Type="VI" URL="../YJoint_Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
