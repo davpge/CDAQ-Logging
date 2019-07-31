@@ -259,6 +259,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Notifier_control.ctl" Type="VI" URL="../Notifier_control.ctl"/>
 			<Item Name="STOP_FGV.vi" Type="VI" URL="../STOP_FGV.vi"/>
 			<Item Name="Strain_Card1_config.vi" Type="VI" URL="../Strain_Card1_config.vi"/>
 			<Item Name="Strain_Card2_config.vi" Type="VI" URL="../Strain_Card2_config.vi"/>
